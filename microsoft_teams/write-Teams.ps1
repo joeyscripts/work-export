@@ -3,11 +3,11 @@
   Automated MSFT Teams post.
  
 .DESCRIPTION
-  Automated MSFT Team's message post. Will post to EOS' General channel by default. Can be overriden with a different URI. 
+  Automated MSFT Team's message post.
   
 .PARAMETERS
   $message, message to post in Teams. 
-  $uri, webhook URI.
+  $uri, webhook URI created via Teams connector.
  
 .INPUTS
   $message
